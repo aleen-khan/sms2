@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('group_members', function (Blueprint $table) {
             $table->id();
-            $table->string('group_name');
+            $table->integer('group_id');
             $table->string('contact_name');
             $table->string('contact_number');
             $table->timestamps();

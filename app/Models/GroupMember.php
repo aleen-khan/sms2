@@ -10,7 +10,7 @@ class GroupMember extends Model
     use HasFactory;
 
     protected $fillable = [
-        'group_name',
+        'group_id',
         'contact_name',
         'contact_number'
     ];
